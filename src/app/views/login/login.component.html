@@ -1,0 +1,21 @@
+<mat-card-content class="container">
+  <mat-card class="card-login">
+    <mat-card-title>Login</mat-card-title>
+    <form novalidate>
+      <mat-card-content class="conteudo-login">
+        <mat-form-field appearance="outline" class="form-field-full">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput formControlName="email" placeholder="Ex. id=1">
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-field-full">
+          <mat-label>Senha</mat-label>
+          <input type="password" matInput formControlName="senha" placeholder="1234">
+        </mat-form-field>
+      </mat-card-content>
+    </form>
+    <span><a href="/foda-se">esqueceu a senha?</a></span>
+    <mat-card-actions align="end">
+      <button mat-button color="primary" class="full" align="end"><a href="/album">Entrar</a></button>
+    </mat-card-actions>
+  </mat-card>
+</mat-card-content>

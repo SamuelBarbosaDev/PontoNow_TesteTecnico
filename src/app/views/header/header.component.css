@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.example-icon{
+  background-color:#673ab7;
+  color:white;
+  border: 0px ; 
+}
+
+.activate{
+  color: #673ab7;
+}
+  
